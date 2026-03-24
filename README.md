@@ -48,7 +48,7 @@ Asimismo, habilitar la opción "Use TLS" y crear una configuración TLS nueva. I
 
 Dentro del dashboard local, en el grupo "Eventos", se encuentran cuatro botones:
 
-### 1) ACTIVAR HVAC DE EMERGENCIA ###: Incrementa un grado de temperatura y 2% de humedad cada segundo, por 16 segundos, hasta superar los límites superiores ( temperatura > 32°C y humedad > 80%). La condición se sostiene por 5 segundos antes de disparar el encendido del HVAC de emergencia. La condición se mantiene por 10 segundos, y eventualmente tanto temperatura como humedad decrecen hasta regresar al interior de los parámetros seguros.
+1) ACTIVAR HVAC DE EMERGENCIA: Incrementa un grado de temperatura y 2% de humedad cada segundo, por 16 segundos, hasta superar los límites superiores ( temperatura > 32°C y humedad > 80%). La condición se sostiene por 5 segundos antes de disparar el encendido del HVAC de emergencia. La condición se mantiene por 10 segundos, y eventualmente tanto temperatura como humedad decrecen hasta regresar al interior de los parámetros seguros.
 
 2) ACTIVAR GENERADOR: Decrementa 5% de batería por segundo hasta llegar a 15%. La condición se mantiene por 5 segundos antes de disparar el encendido del generador. 
 
