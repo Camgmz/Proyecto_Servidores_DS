@@ -2,9 +2,9 @@
 
 El siguiente proyecto muestra la implementación de un Smart Data Center con arquitectura IoT. El sistema utiliza Device Shadow para gestionar actuadores según la telemetría recolectada por sensores ambientales, e incluye un dashboard local en Node-RED y un flujo de alertas críticas (detección de incendios e intrusos) gestionado por SNS. Toda la actividad y los logs del sistema se almacenan de forma persistente en una base de datos NoSQL con DynamoDB.
 
-Instrucciones de conexión
+## Instrucciones de conexión
 
-a) Node-RED
+### a) Node-RED
 
 1. Inicializar Node-RED en la consola del sistema mediante el comando <node-red>.
 
@@ -30,7 +30,7 @@ Asimismo, habilitar la opción "Use TLS" y crear una configuración TLS nueva. I
 
 7. Para visualizar el dashboard, acceder al puerto  http://127.0.0.1:1880/ui
 
-b) Wokwi
+### b) Wokwi
 
 1. Ingresar al enlace: https://wokwi.com/projects/459396131267350529
 
@@ -42,9 +42,9 @@ b) Wokwi
 "Conectando a WiFi... conectado!"
 "Intentando conectar a MQTT... conectado!"
 
-Ejecución de eventos
+## Ejecución de eventos
 
-a) Dashboard Node-RED
+### a) Dashboard Node-RED
 
 Dentro del dashboard local, en el grupo "Eventos", se encuentran cuatro botones:
 
@@ -71,7 +71,7 @@ La condición se mantiene por 5 segundos antes de de disparar la alerta de incen
 La condición se mantiene por 10 segundos, y gradualmente el nivel de CO regresa por debajo del límite superior.
 
 
-b) Simulación ESP32 en Wokwi
+### b) Simulación ESP32 en Wokwi
 
 El circuito simulado en Wokwi representa el mecanismo de acceso y alerta de intruso con credencial, y establece comunicación con el dashboard local mediante el protocolo MQTT.
 
@@ -84,3 +84,7 @@ Al presionar el botón rojo, se envía una credencial incorrecta y un incremento
 Una vez que el contador de intentos llegue a 3, se envía una alerta de intruso a Node-RED y se enciende el LED rojo.
 
 El botón azul reinicia el contador y el mensaje enviado a Node-RED.
+
+## Diagrama de flujo
+<img width="686" height="453" alt="diagrama" src="https://github.com/user-attachments/assets/86c889ac-d614-4235-baac-6a5ea2608aaf" />
+
