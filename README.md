@@ -85,6 +85,6 @@ Una vez que el contador de intentos llegue a 3, se envía una alerta de intruso 
 
 El botón azul reinicia el contador y el mensaje enviado a Node-RED.
 
-## Diagrama de flujo
+## Arquitectura
 <img width="686" height="453" alt="diagrama" src="https://github.com/user-attachments/assets/86c889ac-d614-4235-baac-6a5ea2608aaf" />
 
