@@ -1,3 +1,5 @@
+# Smart Data Center
+
 El siguiente proyecto muestra la implementación de un Smart Data Center con arquitectura IoT. El sistema utiliza Device Shadow para gestionar actuadores según la telemetría recolectada por sensores ambientales, e incluye un dashboard local en Node-RED y un flujo de alertas críticas (detección de incendios e intrusos) gestionado por SNS. Toda la actividad y los logs del sistema se almacenan de forma persistente en una base de datos NoSQL con DynamoDB.
 
 Instrucciones de conexión
