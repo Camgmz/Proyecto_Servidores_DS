@@ -6,7 +6,7 @@ El siguiente proyecto muestra la implementación de un Smart Data Center con arq
 
 ### a) Node-RED
 
-1. Inicializar Node-RED en la consola del sistema mediante el comando <node-red>.
+1. Inicializar Node-RED en la consola del sistema mediante el comando "node-red".
 
 2. Acceder al servidor mediante el puerto  http://127.0.0.1:1880/
 
